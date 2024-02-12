@@ -1,0 +1,14 @@
+{
+	"class": "ViT",
+	"num_blocks": 12,
+	"patch_size": 16,
+	"d_model": 768,
+	"mlp_dim": 3072,
+	"num_heads": 12,
+	"stochdepth_rate": 0.05,
+	"use_sine": true,
+	"cnn_stem": "conv:c=64;ln;relu;conv:c=128;ln;relu;conv:c=256;ln;relu;conv:c=512;ln;relu;conv:c=768,s=1,k=1,p=0",
+	"image_size": 448,
+	"n_tags": 5813,
+	"loss_type": "focal2"
+}
