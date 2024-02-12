@@ -47,7 +47,7 @@ def prepare_image(image: Image.Image, target_size: int) -> torch.Tensor:
 
     return image_tensor
 
-class JoyTag:
+class CXH_JoyTag:
    
     def __init__(self):
         self.top_tags  = None
